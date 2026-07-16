@@ -1,0 +1,7 @@
+img{
+    transition: transform 6s ease-in 2s;
+}
+img:hover
+{
+transform: translate(5cm,0cm);
+}

@@ -1,0 +1,43 @@
+*{
+
+    background-color: bisque;
+}
+b{
+    color:chocolate;
+}
+h2{
+    color: cornflowerblue;
+}
+h1{
+    color:darkgreen
+}
+#Source{
+    font-size: x-large;
+}
+table,th,td{
+    border-style:solid;
+}
+table td{
+    color: burlywood;
+}
+body{
+    font-style: italic;
+    font-weight: lighter;
+    background-color: wheat;
+    text-align:justify;
+    width:fit-content;
+    background:linear-gradient(to top,blue,green,red);
+}
+/* form{
+    margin:0.3cm,0.2cm,0.5cm,0.1cm;
+    border-style: groove;
+    border-width: 0.6cm;
+    border-color:chocolate antiquewhite yellowgreen;
+    border-radius: 20px 80px 0px 50px;
+    padding:0.6cm 0.2cm 0.5cm 0.8cm;
+
+}
+/* input{
+    position: absolute;
+    left:0.2cm;
+} */ 
