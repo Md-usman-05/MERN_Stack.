@@ -33,7 +33,8 @@ const show=(event)=>{
     <p><b>Gender:</b> ${gender}</p>
     <p><b>Qualification:</b> ${qualification.join(", ")}</p>
     <p><b>Date of Birth:</b> ${DOB}</p>
-    <p><b>Image:</b> ${imgname}</p>
+    <p><b>Image:</b> ${image ? `<img src="${URL.createObjectURL(image)}"alt="Selected Image" width="100">`:'No file selected'
+    }</p>
     `;
     }
 };
