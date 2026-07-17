@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
-    <link rel="stylesheet" href="\CSS\Position.css">
+    <!-- <link rel="stylesheet" href="\CSS\Position.css"> -->
 
 </head>
 <body>
@@ -14,33 +14,34 @@
    </header>
    <main>
    <form>
-    <label>Name:</label>
-    <input type="text" placeholder="Enter name">
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="Enter name">
     <br>
-    <label>Email:</label>
-    <input type="email" placeholder="Enter email">
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Enter email">
     <br>
-    <label>Password:</label>
-    <input type="password" placeholder="Enter password">
+    <label for="password">Password:</label>
+    <input type="password" id="password" placeholder="Enter password">
     <br>
-        <label>Phn.NO:</label>
-    <input type="number" placeholder="Enter number">
+    <label for="Phn.NO">Phn.NO:</label>
+    <input type="number" id="Phn.NO" placeholder="Enter number">
     <br>
-        <label>Gender:</label>
-    <input type="radio" name="gender" id=1>male 
-    <input type="radio" name="gender" id=2>female
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="male">male 
+    <input type="radio" name="gender" value="female">female
     <br>
-     <label>Qualification:</label>
-    <input type="checkbox">10 <sup>th</sup>
-    <input type="checkbox">Diploma 
-    <input type="checkbox">Bachelor
-    <input type="checkbox">Doctrate
+    <label>Qualification:</label>
+    <input class="Qualification" type="checkbox" value="10th">10 <sup>th</sup>
+    <input class="Qualification" type="checkbox" value="12th">12 <sup>th</sup>
+    <input class="Qualification" type="checkbox" value="Diploma">Diploma 
+    <input class="Qualification" type="checkbox" value="Bachelor">Bachelor
+    <input class="Qualification" type="checkbox" value="Doctrate">Doctrate
     <br>
-       <label>D.O.B:</label>
-    <input type="datetime-local">
+    <label for="date">D.O.B:</label>
+    <input type="datetime-local" id="date">
     <br>
-     <label>Image:</label>
-    <input type="file">
+    <label for="image">Image:</label>
+    <input type="file" id="image">
     <br>
    </form>
    </main>
@@ -48,5 +49,6 @@
    <center><button type="submit">Submit</button></center>
    </footer>
     </div>
+<script src="../JS/script.js"></script>
 </body>
 </html>
