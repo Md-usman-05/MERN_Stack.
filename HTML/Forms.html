@@ -13,7 +13,7 @@
 <h1>Forms</h1>
    </header>
    <main>
-   <form>
+   <form id="userForm" onsubmit="show(event)">
     <label for="name">Name:</label>
     <input type="text" id="name" placeholder="Enter name">
     <br>
@@ -43,10 +43,12 @@
     <label for="image">Image:</label>
     <input type="file" id="image">
     <br>
+    <button type="submit">Submit</button>
+    <div id="result"></div>
    </form>
    </main>
    <footer>
-   <center><button type="submit">Submit</button></center>
+   <center></center>
    </footer>
     </div>
 <script src="../JS/script.js"></script>
