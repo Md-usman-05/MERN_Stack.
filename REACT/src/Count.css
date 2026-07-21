@@ -1,0 +1,7 @@
+.count{
+    color:chocolate;
+}
+.counting{
+    display: flex;
+    gap: 30px;
+}
