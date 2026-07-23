@@ -17,6 +17,14 @@ function moveDown(){
     y+=20;
     box.style.top=y+"px";
 }
+box.addEventListener("mouseover",()=>{
+    box.style.border="6px pink solid";
+    box.style.backgroundColor="cyan";
+});
+box.addEventListener("mouseout",()=>{
+    box.style.border="none";
+    box.style.backgroundColor="";
+});
 document.addEventListener("keydown",(event)=>{
     if(event.key==="ArrowUp"){
         y-=30;

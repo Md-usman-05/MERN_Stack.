@@ -1,4 +1,4 @@
-*{
+/* *{
 
     background-color: bisque;
 }
@@ -27,7 +27,7 @@ body{
     text-align:justify;
     width:fit-content;
     background:linear-gradient(to top,blue,green,red);
-}
+} */
 /* form{
     margin:0.3cm,0.2cm,0.5cm,0.1cm;
     border-style: groove;
@@ -41,3 +41,20 @@ body{
     position: absolute;
     left:0.2cm;
 } */ 
+.form{
+    background-color:beige;
+    padding: 20px;
+}
+h1{
+    color: brown;
+}
+#btn{
+    color: green;
+    background-color: aquamarine;
+}
+#label_color{
+    background-color: darkcyan;
+}
+#box{
+    background-color: rgb(244, 251, 251);
+}

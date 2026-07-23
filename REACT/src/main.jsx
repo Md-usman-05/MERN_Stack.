@@ -1,9 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Forms from './Forms.jsx'
+import JSX from './DB_connect.jsx'
+import '../../CSS/style.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Forms />
+    <JSX />
   </StrictMode>,
 )
